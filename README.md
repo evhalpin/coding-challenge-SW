@@ -9,4 +9,4 @@ Link to active page:   https://evhalpin.github.io/coding-challenge-SW/audio-reco
 I'm not sure if the intention was to pull data from a cross-origin iframe to a parent window, but I wasn't sure how to do that so my iframe has the same origin as the page this challenge runs on. Outside of an iframe, I could have used a cross-orgin XMLHttp request, but I assumed (hopefully correctly), that the challenge expected the work to be done with an iframe.
 Link to active page:   https://evhalpin.github.io/coding-challenge-SW/iframe.html
 
-ifram points to:   https://evhalpin.github.io/coding-challenge-SW/
+(iframe points to:   https://evhalpin.github.io/coding-challenge-SW/)
