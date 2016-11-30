@@ -3,36 +3,42 @@
 <head>
 	<title>Challenge 1 - Sound Recording</title>
 	<meta charset="utf-8">
-<style>
-	.main {
-		border: 5px solid #339900;
-		border-radius: 10px;
-		width: 80%;
-		margin: auto;
-		text-align: center;
-		margin-top: 10vh;
-		height: 60vh;
-		padding: 5vh 0;
-	}
-	.instructions p {
-		margin: .5vh;
-	}
-	button {
-		font-size: 1.5em;
-		margin: 10vh auto;
-		min-width: 10%;
-		display: block;
-		border-radius: 5px;
-		background-color: #E8ED64;
-		color: #339900;
-		border-style: outset;
-		border-color: #E8ED64;
-	}
-	button:disabled {
-		color: buttonface;
-	}
-</style>
+
+	<style>
+		.main {
+			border: 5px solid #339900;
+			border-radius: 10px;
+			width: 80%;
+			margin: auto;
+			text-align: center;
+			margin-top: 10vh;
+			height: 60vh;
+			padding: 5vh 0;
+		}
+		.instructions p {
+			margin: .5vh;
+		}
+		button {
+			font-size: 1.5em;
+			margin: 10vh auto;
+			min-width: 10%;
+			display: block;
+			border-radius: 5px;
+			background-color: #E8ED64;
+			color: #339900;
+			border-style: outset;
+			border-color: #E8ED64;
+		}
+		button:disabled {
+			color: buttonface;
+		}
+		.go-back {
+			margin-top: 5vh;
+			text-align: center;
+		}
+	</style>
 </head>
+
 <body>
 	<div class='main'>
 		<div class='instructions'>
@@ -44,6 +50,10 @@
 			<audio controls autoplay id='the-audio'></audio>
 		</div>
 	</div>
+	<div class='go-back'>
+		<a href='https://evhalpin.github.io/coding-challenge-SW'>Back to challenges list</a>
+	</div>
+	
 	<script>
 		/* The function that executes if getUserMedia (below) successfully:
 			1) gets the user's permission to access their mic
